@@ -1,0 +1,6 @@
+common:
+    includes:
+        - source/hic_hal/st/stm32f103zet6_mini_core
+    sources:
+        hic_hal:
+            - source/hic_hal/st/stm32f103zet6_mini_core

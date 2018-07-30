@@ -67,6 +67,16 @@ projects:
         - *module_bl
         - *module_hic_stm32f103xe
         - records/board/stm32f1xx_bl.yaml
+    stm32f103xe_stm32f103zet6_mini_core_bl:
+        - *module_bl
+        - *module_hic_stm32f103xe
+        - records/board/stm32f1xx_bl.yaml
+        - records/hic_hal/stm32f103zet6_mini_core.yaml
+    stm32f103xe_stm32f103zet6_mini_core_if:
+        - *module_if
+        - *module_hic_stm32f103xe
+        - records/board/stm32f103zet6_mini_core.yaml
+        - records/hic_hal/stm32f103zet6_mini_core.yaml
     kl26z_bl:
         - *module_bl
         - *module_hic_kl26z
